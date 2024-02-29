@@ -1,0 +1,25 @@
+@import "app/styles/vars";
+.header {
+  padding: 15px 25px ;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #A5E4C9;
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
+  border-radius: 0 0 30px 30px;
+  height: 100px;
+  z-index: 2;
+  position: relative;
+}
+
+
+.profileLink {
+  padding: 15px;
+}
+.avatarSmall {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Button, Checkbox, Form, Input} from 'antd';
 import {registrationUser} from "../model/auth.model";
-import {Navigate} from "react-router-dom";
 
 type FieldType = {
     email: string;
